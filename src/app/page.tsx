@@ -24,9 +24,9 @@ export default function Home() {
       <div className="min-h-screen flex items-center justify-center bg-gray-100">
         <Carousel/>
       </div>
-      <div>
+      {/* <div>
         <Section6/>
-      </div>
+      </div> */}
     </>
   );
 }
