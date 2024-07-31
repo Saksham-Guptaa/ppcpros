@@ -23,10 +23,10 @@ const logos = [
   ]
 const Hero = () => {
   return (
-    <div className='px-28  pt-24 w-[70%] ' >
-        <div className='' >
-            <TextGenerateEffect  words={words1} />
-            <TextGenerateEffect words={words2} />
+      <div className='px-28  pt-24 w-[70%] ' >
+        <div className='text-white text-6xl' >
+            <h2>Stand out with every click</h2>
+            <h2>- Power up your presence</h2>
         </div>
 
         <div className='flex space-x-3 pt-10 ' >

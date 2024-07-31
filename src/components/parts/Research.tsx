@@ -20,8 +20,8 @@ export function Research() {
         }}
         className="text-2xl px-4 md:text-4xl lg:text-4xl  text-neutral-700 dark:text-[#19183A] max-w-5xl leading-relaxed lg:leading-snug text-center mx-auto "
       >
-        Our research shows that 95% of marketing is wasted effort. PPC Pros helps you focus on the 
-        <Highlight className="text-black font-bold dark:text-white">
+        Our research shows that 95% of marketing is wasted effort. PPC Pros helps you focus on the  &nbsp;  
+        <Highlight className="text-white font-bold dark:text-white">
           5% that matters.
         </Highlight>
       </motion.h1>
