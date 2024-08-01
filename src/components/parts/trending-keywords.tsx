@@ -7,7 +7,6 @@ const GoogleTrendsIframe = () => {
         src="https://trends.google.com/trends/trendingsearches/daily?geo=IN"
         width="100%"
         height="500"
-        frameBorder="0"
         className="border border-gray-300 text-black rounded-lg"
         title="Google Trends Trending Searches"
       ></iframe>
