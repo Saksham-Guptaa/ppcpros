@@ -9,6 +9,10 @@ import Section8 from "@/components/Section8";
 import Section7 from "@/components/Section7";
 import React from "react";
 import { Section9 } from "@/components/Section9";
+import Section10 from "@/components/Section10";
+import { BentoDemo } from "@/components/Section11";
+import Section12 from "@/components/Section12";
+import Section13 from "@/components/Section13";
 export default function Home() {
   return (
     <>
@@ -37,6 +41,12 @@ export default function Home() {
       <div>
         <Section9/>
       </div>
+      <div>
+        <Section10/>
+      </div>
+      <BentoDemo/>
+      <Section12/>
+      <Section13/>
       
     </>
   );
