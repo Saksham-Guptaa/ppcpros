@@ -8,7 +8,7 @@ const Section2 = () => {
     <div>
       <Research/>
       <div className="relative w-[95%] h-[3px] mx-auto flex items-center justify-start overflow-hidden">
-        <div className="absolute left-0 h-[3px] bg-black animate-dot-to-line"></div>
+        <div className="absolute left-0 h-[3px] bg-black animate-dot-to-line "></div>
       </div>
       <Help/>
       <Stats/>

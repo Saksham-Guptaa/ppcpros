@@ -60,7 +60,7 @@ import {
   export async function BentoDemo() {
     return (
     <div className=" " >
-        <p className="text-center text-5xl p-4" >Driving innovation with advanced marketing technology</p>
+        <p className="text-2xl px-4 md:text-4xl lg:text-4xl  text-neutral-700 dark:text-[#19183A] max-w-5xl leading-relaxed lg:leading-snug text-center mx-auto" >Driving innovation with advanced marketing technology</p>
       <BentoGrid className="lg:grid-rows-3 px-10 ">
         {features.map((feature) => (
           <BentoCard key={feature.name} {...feature} />

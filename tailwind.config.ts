@@ -70,10 +70,20 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        'dot-to-line': {
+          '0%': { width: '0.25rem' },
+          '100%': { width: '100%' },
+        },
+        'move-across': {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(100vw)' },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        'dot-to-line': 'dot-to-line 2s forwards',
+        'move-across': 'move-across 4s linear infinite',
       },
     },
   },

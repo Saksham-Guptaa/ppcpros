@@ -4,7 +4,7 @@ import Hero from './parts/Hero';
 
 const Section1 = () => {
   return (
-    <div className="relative w-full  bg-black h-[80vh] overflow-hidden">
+    <div className="relative bg-black w-full h-[100vh] overflow-hidden">
       {/* <iframe
         src="https://my.spline.design/interactivecubes-5261ad6a75c7d0ee9ad71cbfce6d4640/"
         className="absolute top-0 left-0 w-full h-full border-none z-[-1] pointer-events-none"

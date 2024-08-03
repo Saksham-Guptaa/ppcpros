@@ -31,7 +31,7 @@ const FeatureGrid = () => {
 
   return (
     <div className="w-full px-10 py-8 bg-white">
-      <p className="text-center text-5xl w-[70%] mx-auto p-10">
+      <p className="text-2xl px-4 md:text-4xl lg:text-4xl  text-neutral-700 dark:text-[#19183A] max-w-5xl leading-relaxed lg:leading-snug text-center mx-auto">
         Our Ad types are purpose-built around your sales funnel, to help you
         create sustainable, predictable growth
       </p>

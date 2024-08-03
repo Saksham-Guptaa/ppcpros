@@ -1,4 +1,5 @@
 import React from 'react';
+import { Clients } from './parts/Clients';
 
 const Section12 = () => {
   return (
